@@ -13,8 +13,8 @@ flowchart TD
   end
 
   subgraph Services
-    producer[Producer localhost:3000]
-    consumer[Consumer localhost:3001]
+    producer[Producer-trading localhost:3000]
+    consumer[Consumer-chart_monitoring localhost:3001]
     frontend[React localhost:5173]
     db[(Database)]
   end
